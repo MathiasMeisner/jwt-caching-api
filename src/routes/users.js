@@ -1,8 +1,8 @@
 const express = require('express');
 const pool = require('../../db');
 const router = express.Router();
-const { getCache, setCache } = require('../service/inMemoryCache');
-const { clearCache } = require('../service/cachingService');
+const { getCache, setCache } = require('../services/inMemoryCache');
+const { clearCache } = require('../services/cachingService');
 
 const DEBUG = process.env.DEBUG === "true"; // Enable logging only in debug mode
 
