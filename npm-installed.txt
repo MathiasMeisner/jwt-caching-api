@@ -1,0 +1,7 @@
+npm install express pg bcryptjs body-parser dotenv
+npm install --save-dev nodemon
+npm install jsonwebtoken
+npm install axios
+npm install react-router-dom
+npm install cors
+npm install -g autocannon

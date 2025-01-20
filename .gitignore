@@ -21,3 +21,6 @@ Thumbs.db
 
 # Ignore Visual Studio cache files
 .vs/
+
+# misc
+.npm-installed.txt
