@@ -1,0 +1,23 @@
+# Ignore environment variables
+.env
+
+# Ignore node_modules (very important!)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore database files if using SQLite
+*.sqlite
+*.sqlite3
+
+# Ignore IDE configuration files (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio cache files
+.vs/
